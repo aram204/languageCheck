@@ -1,11 +1,11 @@
 def languageCheck():
     language=input("choose your lenguage: ")
     if language=="hy":
-        for i in open("armGreeting.txt"):
+        for i in open("hyGreeting.txt"):
             print(i,end="")
         print("")
     elif language=="ru":
-        for i in open("rusGreeting.txt"):
+        for i in open("ruGreeting.txt"):
             print(i, end="")
         print("")
     elif language=="en":
